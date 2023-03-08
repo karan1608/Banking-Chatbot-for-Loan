@@ -1,0 +1,1995 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        
+        "Hello, thanks for visiting, Please enter your bank name:"
+        
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye","Thank you"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "home loan indian bank",
+      "patterns": [
+        "home loan indian bank",
+        "education indian bank"
+      ],
+      "responses": [
+        "Indian bank home loan response 1"
+      ]
+    },
+    {
+      "tag": "choice indian bank",
+      "patterns": [
+        "Indian bank",
+        "Indian"
+      ],
+      "responses": [
+        "You have selected Indian bank, Please choose the Loan type, \n1.home loan\n2.Car Loan\n3.Education Loan"  
+      ]
+    },{
+      "tag": "choice HDFC bank",
+      "patterns": [
+        "HDFC bank",
+        "HDFC"
+      ],
+      "responses": [
+        "You have selected HDFC bank, Please choose the Loan type, \n1.home loan\n2.Car Loan\n3.Education Loan"  
+      ]
+    },{
+      "tag": "choice IOB bank",
+      "patterns": [
+        "IOB bank",
+        "IOB"
+      ],
+      "responses": [
+        "You have selected IOB bank, Please choose the Loan type, \n1.home loan\n2.Car Loan\n3.Education Loan"  
+      ]
+    },{
+      "tag": "choice ICICI bank",
+      "patterns": [
+        "ICICI bank",
+        "ICICI"
+      ],
+      "responses": [
+        "You have selected ICICI bank, Please choose the Loan type, \n1.home loan\n2.Car Loan\n3.Education Loan"  
+      ]
+    },{
+      "tag": "choice CANARA bank",
+      "patterns": [
+        "CANARA bank",
+        "CANARA"
+      ],
+      "responses": [
+        "You have selected CANARA bank, Please choose the Loan type, \n1.home loan\n2.Car Loan\n3.Education Loan"  
+      ]
+    },{
+      "tag": "choice SBI bank",
+      "patterns": [
+        "SBI bank",
+        "SBI"
+      ],
+      "responses": [
+        "You have selected SBI bank, Please choose the Loan type, \n1.home loan\n2.Car Loan\n3.Education Loan"  
+      ]
+    },
+{
+      "tag": "choice axis bank",
+      "patterns": [
+        "Axis bank",
+        "Axis","axis"
+      ],
+      "responses": [
+        "You have selected Axis bank, Please choose the Loan type, \n1.home loan\n2.Car Loan\n3.Education Loan"  
+      ]
+    },{
+      "tag": "choice KARUR VYSYA bank",
+      "patterns": [
+        "KARUR VYSYA bank",
+        "KARUR VYSYA"
+      ],
+      "responses": [
+        "You have selected KARUR VYSYA bank, Please choose the Loan type, \n1.home loan\n2.Car Loan\n3.Education Loan"  
+      ]
+    },{
+      "tag": "Interest Rate home loan karur vysya bank",
+      "patterns": [
+        "Interest Rate home loan karur vysya bank",
+        "home loan interest rate karur vysya bank",
+        "Karur vysya interest rate home loan"
+      ],
+      "responses": [
+        "The interest rate will be 8.60% - 9.5% based on the Cibil Score even for NRI"  
+      ]
+    },{
+      "tag": "Tenure home loan karur vysya bank",
+      "patterns": [
+        "Tenure home loan karur vysya bank",
+        "home loan Tenure karur vysya bank",
+        "Karur vysya Tenure home loan"
+      ],
+      "responses": [
+        "The maximum tenure to repay the loan is 25 years and minimum tenure will be 2 years."  
+      ]
+    },{
+      "tag": "Loan Amount home loan karur vysya bank",
+      "patterns": [
+        "Loan Amount home loan karur vysya bank",
+        "home loan Loan Amount karur vysya bank",
+        "Karur vysya Loan Amount home loan"
+      ],
+      "responses": [
+        "The minimum loan amount will be 1 lakh and maximum will be 1 crores."  
+      ]
+    },{
+      "tag": "interest rate home loan Axis bank",
+      "patterns": [
+        "interest rate home loan Axis bank",
+        "home loan interest rate Axis bank",
+        "axis interest rate home loan"
+      ],
+      "responses": [
+        "1) The interest rate for Salaried Individual will be 8.60% - 8.95% based on the Cibil Score and for Self Employed individuals will be 8.70% - 9.05% based on the Cibil Score"  
+      ]
+    },{
+      "tag": "tenure home loan Axis bank",
+      "patterns": [
+        "tenure home loan Axis bank",
+        "home loan tenure Axis bank",
+        "axis tenure home loan"
+      ],
+      "responses": [
+        "The maximum tenure to repay the loan is 30 years and minimum tenure will be 3 years."
+      ]
+    },{
+      "tag": "loan amount home loan Axis bank",
+      "patterns": [
+        "loan amount home loan Axis bank",
+        "home loan loan amount Axis bank",
+        "axis loan amount home loan"
+      ],
+      "responses": [
+        "The minimum loan amount will be 2 lakhs and maximum will be 10 crores."
+      ]
+    },{
+      "tag": "floating interest home loan Axis bank",
+      "patterns": [
+        "floating interest home loan Axis bank",
+        "home loan floating interest Axis bank",
+        "axis floating interest home loan"
+      ],
+      "responses": [
+        "The interest rate is floating interest rate. The fixed Interest rate is 14%."
+      ]
+    },{
+      "tag": "processing fee home loan Axis bank",
+      "patterns": [
+        "processing fee home loan Axis bank",
+        "home loan processing fee Axis bank",
+        "axis processing fee home loan"
+      ],
+      "responses": [
+        "The processing fee for the home loan will be 0.5% - 1% of your approved home loan + GST."
+      ]
+    },{
+      "tag": "part payment home loan Axis bank",
+      "patterns": [
+        "part payment home loan Axis bank",
+        "home loan part payment Axis bank",
+        "axis part payment home loan"
+      ],
+      "responses": [
+        "Yes. You can prepay the home loan. As for the charges, if you're Axis Bank home loan is on a floating rate of interest, the bank does not charge any prepayment fee; however, if the loan is under the fixed rate of interest, the bank levies 2% on the outstanding principal amount as prepayment charges."
+      ]
+    },
+{
+      "tag": "senior citizen home loan Axis bank",
+      "patterns": [
+        "senior citizen home loan Axis bank",
+        "home loan senior citizen Axis bank",
+        "axis senior citizen home loan"
+      ],
+      "responses": [
+        "As of now, they are not providing home loans for senior citizens"
+      ]
+    },
+{
+      "tag": "Minimum Instalment home loan Axis bank",
+      "patterns": [
+        "Minimum Instalment home loan Axis bank",
+        "home loan Minimum Instalment Axis bank",
+        "axis Minimum Instalment home loan"
+      ],
+      "responses": [
+        "The minimum installment amount for 50 lakhs loan for 30 years with the interest rate 8.60 will be Rs: 38801. You can calculate the EMI for home loan by using this link https://www.axisbank.com/retail/loans/car-loan/new-car-loan/documents#menuTab"
+      ]
+    },
+{
+      "tag": "Eligibility home loan Axis bank",
+      "patterns": [
+        "Eligibility home loan Axis bank",
+        "home loan Eligibility Axis bank",
+        "axis Eligibility home loan"
+      ],
+      "responses": [
+        "To check the eligibility criteria please visit this link. https://www.axisbank.com/retail/loans/home-loan/axis-bank-home-loan/eligibility-documentations#menuTab"
+      ]
+    },{
+      "tag": "documents required home loan Axis bank",
+      "patterns": [
+        "documents required home loan Axis bank",
+        "home loan documents required Axis bank",
+        "axis documents required home loan"
+      ],
+      "responses": [
+        "10) Documents Required: 1) Address Proof 2) Name and Age Proof 3) 3 - Months Salary Slip 4) KYC Documents etc. You can check the detailed documents required here by visiting this link. https://www.axisbank.com/retail/loans/car-loan/new-car-loan/documents#menuTab"
+      ]
+    },{
+      "tag": "interest rate car loan Axis bank",
+      "patterns": [
+        "interest rate car loan Axis bank",
+        "car loan interest rate Axis bank",
+        "axis interest rate car loan"
+      ],
+      "responses": [
+        "The interest rate will be in range 8.40 % - 13.05% based on the Cibil Score."  
+      ]
+    },{
+      "tag": "tenure car loan Axis bank",
+      "patterns": [
+        "tenure car loan Axis bank",
+        "car loan tenure Axis bank",
+        "axis tenure car loan"
+      ],
+      "responses": [
+        "The maximum tenure to repay the loan will be 7 Years and minimum tenure will be 3 years."
+      ]
+    },{
+      "tag": "loan amount car loan Axis bank",
+      "patterns": [
+        "loan amount car loan Axis bank",
+        "car loan loan amount Axis bank",
+        "axis loan amount car loan"
+      ],
+      "responses": [
+        "The 100% loan amount on the on road price of the car will be processed based on the profile of the borrower."
+      ]
+    },{
+      "tag": "processing fee car loan Axis bank",
+      "patterns": [
+        "processing fee car loan Axis bank",
+        "car loan processing fee Axis bank",
+        "axis processing fee car loan"
+      ],
+      "responses": [
+        "2) The processing charges will be from Rs:3500 - 5500 and documentation charges will be Rs:500."
+      ]
+    },{
+      "tag": "part payment car loan Axis bank",
+      "patterns": [
+        "part payment car loan Axis bank",
+        "car loan part payment Axis bank",
+        "axis part payment car loan"
+      ],
+      "responses": [
+        "7) In order to make the Part Payment Closure, You have to pay 5% of the remaining principal amount as a part payment charge."
+      ]
+    },
+{
+      "tag": "Minimum Instalment car loan Axis bank",
+      "patterns": [
+        "Minimum Instalment car loan Axis bank",
+        "car loan Minimum Instalment Axis bank",
+        "axis Minimum Instalment car loan"
+      ],
+      "responses": [
+        "6) The minimum installment amount for 10 lakhs loan for 5 years with the interest rate 8.40 % will be Rs: 20468 /-. You can calculate the EMI for home loan by using this link https://emicalculator.net/"
+      ]
+    },
+{
+      "tag": "Eligibility car loan Axis bank",
+      "patterns": [
+        "Eligibility car loan Axis bank",
+        "car loan Eligibility Axis bank",
+        "axis Eligibility car loan"
+      ],
+      "responses": [
+        "8) To check the eligibility criteria please visit https://www.axisbank.com/retail/loans/car-loan/new-car-loan/eligibility#menuTab"
+      ]
+    },{
+      "tag": "Minimum eligibility car loan Axis bank",
+      "patterns": [
+        "Minimum Eligibility car loan Axis bank",
+        "car loan Minimum Eligibility Axis bank",
+        "axis Minimum Eligibility car loan"
+      ],
+      "responses": [
+        "5) The minimum eligibilty criteria for applying the car loan is the net annual salary should be more than 2.5 Lakhs."
+      ]
+    },
+{
+      "tag": "documents required car loan Axis bank",
+      "patterns": [
+        "documents required car loan Axis bank",
+        "car loan documents required Axis bank",
+        "axis documents required car loan"
+      ],
+      "responses": [
+        "19) Documents Required: 1) Address Proof 2) Name and Age Proof 3) 3 - Months Salary Slip 4) KYC Documents etc. You can check the detailed documents required here by visiting this link. https://www.axisbank.com/retail/loans/car-loan/new-car-loan/documents#menuTab"
+      ]
+    },{
+      "tag": "interest rate education loan Axis bank",
+      "patterns": [
+        "interest rate education loan Axis bank",
+        "education loan interest rate Axis bank",
+        "axis interest rate education loan"
+      ],
+      "responses": [
+        "1) The interest rate will be 15.20% upto 4 Lakhs, 14.70% for loan in the range 4 - 7.5 Lakhs and 13.70% for loans greater than 7.5 Lakhs."  
+      ]
+    },{
+      "tag": "tenure education loan Axis bank",
+      "patterns": [
+        "tenure education loan Axis bank",
+        "education loan tenure Axis bank",
+        "axis tenure education loan"
+      ],
+      "responses": [
+        "3) The maximum tenure for loans upto 4 Lakhs will be 7 years , for loans in range 4 - 7.5 Lakhs will be 10 years and above 7.5 Lakhs will be 15 years."
+      ]
+    },{
+      "tag": "loan amount education loan Axis bank",
+      "patterns": [
+        "loan amount education loan Axis bank",
+        "education loan loan amount Axis bank",
+        "axis loan amount education loan"
+      ],
+      "responses": [
+        "4) The loan amount will be transferred 100 % of the education expenses including Tuition fees, Book fees and Hostel Charges."
+      ]
+    },{
+      "tag": "processing fee education loan Axis bank",
+      "patterns": [
+        "processing fee education loan Axis bank",
+        "education loan processing fee Axis bank",
+        "axis processing fee education loan"
+      ],
+      "responses": [
+        "2) The processing charges will be from Rs:2000 + GST and documentation charges will be Rs:500."
+      ]
+    },{
+      "tag": "part payment education loan Axis bank",
+      "patterns": [
+        "part payment education loan Axis bank",
+        "education loan part payment Axis bank",
+        "axis part payment education loan"
+      ],
+      "responses": [
+        "6) Pre-Payment is available and no charges for pre-payment.."
+      ]
+    },
+
+{
+      "tag": "Eligibility education loan Axis bank",
+      "patterns": [
+        "Eligibility education loan Axis bank",
+        "education loan Eligibility Axis bank",
+        "axis Eligibility education loan"
+      ],
+      "responses": [
+        "To check complete eligibility criteria. Please visit this link. https://www.axisbank.com/retail/loans/education-loan/eligibility#menuTab"
+      ]
+    },{
+      "tag": "Minimum eligibility education loan Axis bank",
+      "patterns": [
+        "Minimum Eligibility education loan Axis bank",
+        "education loan Minimum Eligibility Axis bank",
+        "axis Minimum Eligibility education loan"
+      ],
+      "responses": [
+        "8) The must eligibility criteria is the student should Indian Citizen and should have atleast 50% in SSLC and HSC. To check complete eligibility criteria. Please visit this link. https://www.axisbank.com/retail/loans/education-loan/eligibility#menuTab"
+      ]
+    },
+{
+      "tag": "documents required education loan Axis bank",
+      "patterns": [
+        "documents required education loan Axis bank",
+        "education loan documents required Axis bank",
+        "axis documents required education loan"
+      ],
+      "responses": [
+        "7) Documents Required: 1) Address Proof 2) Name and Age Proof 3) 3 - Months Salary Slip 4) KYC Documents etc. You can check the detailed documents required here by visiting this link.  https://www.axisbank.com/retail/loans/car-loan/new-car-loan/documents#menuTab"
+      ]
+    },
+{
+      "tag": "minimum loan education loan Axis bank",
+      "patterns": [
+        "minimum loan education loan Axis bank",
+        "education loan minimum loan Axis bank",
+        "axis minimum loan education loan"
+      ],
+      "responses": [
+        "5) The minimum loan amount will be Rs: 50,000 /-"
+      ]
+    },{
+      "tag": "interest rate education loan HDFC bank",
+      "patterns": [
+        "interest rate education loan HDFC bank",
+        "education loan interest rate HDFC bank",
+        "HDFC interest rate education loan"
+      ],
+      "responses": [
+        "1) The interest rate will be 9.55% - 13.25% upto 10 Lakhs (Inside India) and the interest rate will differ according to the institution."  
+      ]
+    },{
+      "tag": "tenure education loan HDFC bank",
+      "patterns": [
+        "tenure education loan HDFC bank",
+        "education loan tenure HDFC bank",
+        "HDFC tenure education loan"
+      ],
+      "responses": [
+        "2) The maximum Loan repayment tenor up-to 15 years . Moratorium shall mean (1) Course Period + 1 year or 6 months after getting Job, whichever is earlier; (2) as stipulated by Bank."
+      ]
+    },{
+      "tag": "loan amount education loan HDFC bank",
+      "patterns": [
+        "loan amount education loan HDFC bank",
+        "education loan loan amount HDFC bank",
+        "HDFC loan amount education loan"
+      ],
+      "responses": [
+        "4) The loan amount will be transferred 100 % of the education expenses including Tution fees, Book fees and Hostel Charges.."
+      ]
+    },{
+      "tag": "processing fee education loan HDFC bank",
+      "patterns": [
+        "processing fee education loan HDFC bank",
+        "education loan processing fee HDFC bank",
+        "HDFC processing fee education loan"
+      ],
+      "responses": [
+        "3) Processing fee is a minimum of Rs.1000 and a maximum of up to 1% of the loan amount, which is higher."
+      ]
+    },{
+      "tag": "part payment education loan HDFC bank",
+      "patterns": [
+        "part payment education loan HDFC bank",
+        "education loan part payment HDFC bank",
+        "HDFC part payment education loan"
+      ],
+      "responses": [
+        "Pre-payment is allowed. However, you will need to incur a charge of up to 4% of the outstanding balance if it is done during moratorium period. In case, pre-payment is done after the expiry of the moratorium, no pre-payment charge is levied."
+      ]
+    },
+
+{
+      "tag": "Eligibility education loan HDFC bank",
+      "patterns": [
+        "Eligibility education loan HDFC bank",
+        "education loan Eligibility HDFC bank",
+        "HDFC Eligibility education loan"
+      ],
+      "responses": [
+        "7) The minimum eligibility criteria is he/she should have secured admission through entrance test or on merit basis."
+      ]
+    },{
+      "tag": "Minimum eligibility education loan HDFC bank",
+      "patterns": [
+        "Minimum Eligibility education loan HDFC bank",
+        "education loan Minimum Eligibility HDFC bank",
+        "HDFC Minimum Eligibility education loan"
+      ],
+      "responses": [
+        "7) The minimum eligibility criteria is he/she should have secured admission through entrance test or on merit basis."
+      ]
+    },
+{
+      "tag": "documents required education loan HDFC bank",
+      "patterns": [
+        "documents required education loan HDFC bank",
+        "education loan documents required HDFC bank",
+        "HDFC documents required education loan"
+      ],
+      "responses": [
+        "6) Documents Required: 1) Address Proof 2) Name and Age Proof 3) 3 - Months Salary Slip 4) KYC Documents etc. You can check the detailed documents required here by visiting this link. https://www.hdfcbank.com/personal/borrow/popular-loans/educational-loan/educational-loan-for-indian-education/documentation"
+      ]
+    },{
+      "tag": "interest rate car loan HDFC bank",
+      "patterns": [
+        "interest rate car loan HDFC bank",
+        "car loan interest rate HDFC bank",
+        "HDFC interest rate car loan"
+      ],
+      "responses": [
+        "1) The interest rate will be starting from 7.90 % and increases based on the Cibil Score."  
+      ]
+    },{
+      "tag": "tenure car loan HDFC bank",
+      "patterns": [
+        "tenure car loan HDFC bank",
+        "car loan tenure HDFC bank",
+        "HDFC tenure car loan"
+      ],
+      "responses": [
+        "3) The maximum tenure for loans will be 7 Years and minimum tenure will be 3 Years.."
+      ]
+    },{
+      "tag": "loan amount car loan HDFC bank",
+      "patterns": [
+        "loan amount car loan HDFC bank",
+        "car loan loan amount HDFC bank",
+        "HDFC loan amount car loan"
+      ],
+      "responses": [
+        "4) The 100% loan amount on the on road price of the car will be processed based on the profile of the borrower."
+      ]
+    },{
+      "tag": "processing fee car loan HDFC bank",
+      "patterns": [
+        "processing fee car loan HDFC bank",
+        "car loan processing fee HDFC bank",
+        "HDFC processing fee car loan"
+      ],
+      "responses": [
+        "2) The processing fee is 0.5% of Loan Amount subject to minimum of Rs.3500/- and maximum of Rs.8000/- and Documentation charges will be Rs: 700 /- Non-refundable."
+      ]
+    },{
+      "tag": "part payment car loan HDFC bank",
+      "patterns": [
+        "part payment car loan HDFC bank",
+        "car loan part payment HDFC bank",
+        "HDFC part payment car loan"
+      ],
+      "responses": [
+        "7) Part payment will be allowed twice only during loan tenure. Part payment is allowed only once a year. At any point of time, part payment will not increase beyond 25% of Principal Outstanding. 5% on the part payment amount in case part prepayment is within 13-24 months from 1st EMI 3% on the part payment amount in case part prepayment is post 24 months from 1st EMI.."
+      ]
+    },
+
+{
+      "tag": "Eligibility car loan HDFC bank",
+      "patterns": [
+        "Eligibility car loan HDFC bank",
+        "car loan Eligibility HDFC bank",
+        "HDFC Eligibility car loan"
+      ],
+      "responses": [
+        "8) To check the eligibility criteria please visit https://www.hdfcbank.com/personal/borrow/popular-loans/new-car-loan/eligibility."
+      ]
+    },{
+      "tag": "Minimum eligibility car loan HDFC bank",
+      "patterns": [
+        "Minimum Eligibility car loan HDFC bank",
+        "car loan Minimum Eligibility HDFC bank",
+        "HDFC Minimum Eligibility car loan"
+      ],
+      "responses": [
+        "5) The minimum eligibility criteria for applying the car loan is the net annual salary should be more than 1.8 Lakhs.."
+      ]
+    },
+{
+      "tag": "documents required car loan HDFC bank",
+      "patterns": [
+        "documents required car loan HDFC bank",
+        "car loan documents required HDFC bank",
+        "HDFC documents required car loan"
+      ],
+      "responses": [
+        "6) Documents Required: 1) Address Proof 2) Name and Age Proof 3) 3 - Months Salary Slip 4) KYC Documents etc. You can check the detailed documents required here by visiting this link. https://www.hdfcbank.com/personal/borrow/popular-loans/educational-loan/educational-loan-for-indian-education/documentation"
+      ]
+    },
+{
+      "tag": "minimum instalment car loan HDFC bank",
+      "patterns": [
+        "minimum instalment car loan HDFC bank",
+        "car loan minimum instalment HDFC bank",
+        "HDFC minimum instalment car loan"
+      ],
+      "responses": [
+        "6) The minimum instalment amount for 10 lakhs loan for 5 years with the interest rate 7.90 % will be Rs: 20229 /-. You can calculate the EMI for home loan by using this link https://emicalculator.net/"
+      ]
+    },{
+      "tag": "interest rate home loan HDFC bank",
+      "patterns": [
+        "interest rate home loan HDFC bank",
+        "home loan interest rate HDFC bank",
+        "HDFC interest rate home loan"
+      ],
+      "responses": [
+        "1) The interest rate for Salaried and Self-Employed Individual will be 8.65% - 9.15% and loan amount upto 30 Lakhs. 8.90% - 9.40% interest rate for loan amount from 35 lakhs - 70 lakhs and 9.00% - 9.50% interest rate for loan amount from 75 lakhs and above.The interest rate for Women Salaried and Self-Employed Individual will be 8.60% - 9.10% based on the Cibil Score and loan amount upto 30 Lakhs. 8.85% - 9.35% interest rate for loan amount from 35 lakhs - 70 lakhs and 8.95% - 9.45% interest rate for loan amount from 75 lakhs and above."  
+      ]
+    },{
+      "tag": "tenure home loan HDFC bank",
+      "patterns": [
+        "tenure home loan HDFC bank",
+        "home loan tenure HDFC bank",
+        "HDFC tenure home loan"
+      ],
+      "responses": [
+        "2) The maximum tenure to repay the loan is 30 years and minimum tenure will be 5 years."
+      ]
+    },{
+      "tag": "loan amount home loan HDFC bank",
+      "patterns": [
+        "loan amount home loan HDFC bank",
+        "home loan loan amount HDFC bank",
+        "HDFC loan amount home loan"
+      ],
+      "responses": [
+        "10) No full amount of the property will be processed. It will be based on the loan amount sanctioned. Up to Rs.30 lakh - 90% of the property cost, From Rs.30 lakh to Rs.75 lakhs - 80% of the property cost, Above Rs.75 lakh - 75% of the property cost"
+      ]
+    },{
+      "tag": "processing fee home loan HDFC bank",
+      "patterns": [
+        "processing fee home loan HDFC bank",
+        "home loan processing fee HDFC bank",
+        "HDFC processing fee home loan"
+      ],
+      "responses": [
+        "5) The processing fee is Up to 0.50% of the loan amount or ₹3,000 whichever is higher, plus applicable taxes."
+      ]
+    },{
+      "tag": "part payment home loan HDFC bank",
+      "patterns": [
+        "part payment home loan HDFC bank",
+        "home loan part payment HDFC bank",
+        "HDFC part payment home loan"
+      ],
+      "responses": [
+        "6) Yes, You can prepay the home loan. No charges for Individual Borrowers; Other than Individual Borrowers, 2% on the amount being prepaid within 6 months; above 6 months, the borrower has the option to prepay up to 25% (above 25% attracts 2% prepayment fee) of the opening principal amount every financial year without any prepayment charges. After 36 months, no prepayment charges.."
+      ]
+    },
+
+{
+      "tag": "Eligibility home loan HDFC bank",
+      "patterns": [
+        "Eligibility home loan HDFC bank",
+        "home loan Eligibility HDFC bank",
+        "HDFC Eligibility home loan"
+      ],
+      "responses": [
+        " The minimum eligibility criteria is your age should be in range 21 - 65 years and your monthly salary should be greater than 25,000 /-"
+      ]
+    },{
+      "tag": "Minimum eligibility home loan HDFC bank",
+      "patterns": [
+        "Minimum Eligibility home loan HDFC bank",
+        "home loan Minimum Eligibility HDFC bank",
+        "HDFC Minimum Eligibility home loan"
+      ],
+      "responses": [
+        "9) The minimum eligibility criteria is your age should be in range 21 - 65 years and your monthly salary should be greater than 25,000 /-"
+      ]
+    },
+{
+      "tag": "documents required home loan HDFC bank",
+      "patterns": [
+        "documents required home loan HDFC bank",
+        "home loan documents required HDFC bank",
+        "HDFC documents required home loan"
+      ],
+      "responses": [
+        "6) Documents Required: 1) Address Proof 2) Name and Age Proof 3) 3 - Months Salary Slip 4) KYC Documents etc. You can check the detailed documents required here by visiting this link. https://www.hdfcbank.com/"
+      ]
+    },
+{
+      "tag": "minimum instalment home loan HDFC bank",
+      "patterns": [
+        "minimum instalment home loan HDFC bank",
+        "home loan minimum instalment HDFC bank",
+        "HDFC minimum instalment home loan"
+      ],
+      "responses": [
+        "8) The minimum installment amount for 50 lakhs loan for 30 years with the interest rate 8.65 will be Rs: 38978 /-. You can calculate the EMI for home loan by using this link https://emicalculator.net//"
+      ]
+    },
+{
+      "tag": "Floating home loan HDFC bank",
+      "patterns": [
+        "Floating home loan HDFC bank",
+        "home loan Floating HDFC bank",
+        "HDFC Floating home loan"
+      ],
+      "responses": [
+        "8) The minimum installment amount for 50 lakhs loan for 30 years with the interest rate 8.65 will be Rs: 38978 /-. You can calculate the EMI for home loan by using this link https://emicalculator.net//"
+      ]
+    },
+{
+      "tag": "senior home loan HDFC bank",
+      "patterns": [
+        "senior home loan HDFC bank",
+        "home loan senior HDFC bank",
+        "HDFC senior home loan"
+      ],
+      "responses": [
+        "7) As of now, they are not providing home loans for senior citizens"
+      ]
+    },{
+      "tag": "interest rate home loan SBI bank",
+      "patterns": [
+        "interest rate home loan SBI bank",
+        "home loan interest rate SBI bank",
+        "SBI interest rate home loan"
+      ],
+      "responses": [
+        "1) You can check the interest rate for home loan with regard to your CIBIL score by visiting this link. https://homeloans.sbi/downloads/HL_ROI.jpg"  
+      ]
+    },{
+      "tag": "tenure home loan SBI bank",
+      "patterns": [
+        "tenure home loan SBI bank",
+        "home loan tenure SBI bank",
+        "SBI tenure home loan"
+      ],
+      "responses": [
+        "4) Loan Tenure of upto 30 years can be processed according to the borrower's profile."
+      ]
+    },{
+      "tag": "loan amount home loan SBI bank",
+      "patterns": [
+        "loan amount home loan SBI bank",
+        "home loan loan amount SBI bank",
+        "SBI loan amount home loan"
+      ],
+      "responses": [
+        "6) You can get a loan quote by filling your details at the following site. https://onlineapply.sbi.co.in/personal-banking/home-loan?se=SBI-Microsite&cp=Homeloan&Ag=SBI-Microsite"
+      ]
+    },{
+      "tag": "processing fee home loan SBI bank",
+      "patterns": [
+        "processing fee home loan SBI bank",
+        "home loan processing fee SBI bank",
+        "SBI processing fee home loan"
+      ],
+      "responses": [
+        "Processing fee for i)Regular Home loans/Home Top-up loans: 0.35% of the loan amount plus applicable GST, minimum Rs.2,000/- plus applicable GST and maximum of Rs. 10,000/- plus applicable GST ii) Personal Loan against property: 1% of loan amount plus applicable Tax, maximum Rs. 50,000/ plus applicable taxes."
+      ]
+    },{
+      "tag": "women interest rate home loan SBI bank",
+      "patterns": [
+        "women interest rate home loan SBI bank",
+        "home loan women interest rate SBI bank",
+        "SBI women interest rate home loan"
+      ],
+      "responses": [
+        "SBI do provide interest concession for women borrowers."      ]
+    },
+
+{
+      "tag": "Eligibility home loan SBI bank",
+      "patterns": [
+        "Eligibility home loan SBI bank",
+        "home loan Eligibility SBI bank",
+        "SBI Eligibility home loan"
+      ],
+      "responses": [
+        "Resident Type: Resident Indian Minimum Age: 18 years Maximum Age: 70 years"
+      ]
+    },{
+      "tag": "Minimum eligibility home loan SBI bank",
+      "patterns": [
+        "Minimum Eligibility home loan SBI bank",
+        "home loan Minimum Eligibility SBI bank",
+        "SBI Minimum Eligibility home loan"
+      ],
+      "responses": [
+        "Resident Type: Resident Indian Minimum Age: 18 years Maximum Age: 70 years-"
+      ]
+    },
+{
+      "tag": "documents required home loan SBI bank",
+      "patterns": [
+        "documents required home loan SBI bank",
+        "home loan documents required SBI bank",
+        "SBI documents required home loan"
+      ],
+      "responses": [
+        "3) Documents Required: i)ID Card ii)Property Papers iii)Account Statement iv)Income Proof for Salaried Applicant/ Co-applicant/ Guarantor v)Income Proof for Non-Salaried Applicant/ Co-applicant/ Guarantor. You can check the detailed documents required here by visiting this link. https://homeloans.sbi/products/view/regular-home-loan"
+      ]
+    },{
+      "tag": "interest rate education loan SBI bank",
+      "patterns": [
+        "interest rate education loan SBI bank",
+        "education loan interest rate SBI bank",
+        "SBI interest rate education loan"
+      ],
+      "responses": [
+        "Kindly go to https://www.sbi.co.in/portal/web/interestrates/education-loan-scheme for latest Rate of Interest applied."  
+      ]
+    },{
+      "tag": "tenure education loan SBI bank",
+      "patterns": [
+        "tenure education loan SBI bank",
+        "education loan tenure SBI bank",
+        "SBI tenure education loan"
+      ],
+      "responses": [
+        "Repayment period of upto 15 years after Course Period + 12 months of repayment holiday can be processed according to the borrower's profile.."
+      ]
+    },{
+      "tag": "loan amount education loan SBI bank",
+      "patterns": [
+        "loan amount education loan SBI bank",
+        "education loan loan amount SBI bank",
+        "SBI loan amount education loan"
+      ],
+      "responses": [
+        "Studies in India: *Medical Courses: Upto Rs. 30.00 lacs *Other Courses: Upto Rs. 10.00 lacs (Higher loan limit for studies in India may be considered on case-to-case basis, maximum upto Rs 50.00 lacs).Studies Abroad: Maximum Rs. 7.50 lacs (Higher loan limit for studies abroad are considered under our SBI Global Ed-Vantage Scheme)"
+      ]
+    },{
+      "tag": "processing fee education loan SBI bank",
+      "patterns": [
+        "processing fee education loan SBI bank",
+        "education loan processing fee SBI bank",
+        "SBI processing fee education loan"
+      ],
+      "responses": [
+        "Processing fee for loans upto Rs. 7.50 lacs: NIL Processing fee for loans above Rs. 20 lacs: Rs. 10,000 (plus taxes)."
+      ]
+    },{
+      "tag": "penalty education loan SBI bank",
+      "patterns": [
+        "penalty education loan SBI bank",
+        "education loan penalty SBI bank",
+        "SBI penalty education loan"
+      ],
+      "responses": [
+        "If the EMI / Instalment(s) is not credited in the loan account of the borrower on due date, the undernoted charges will be recovered from the borrower: Penal interest @ 2% p.m. to be charged for loans above Rs. 4 lacs for the overdue amount and overdue period."
+      ]
+    },
+
+{
+      "tag": "Eligibility education loan SBI bank",
+      "patterns": [
+        "Eligibility education loan SBI bank",
+        "education loan Eligibility SBI bank",
+        "SBI Eligibility education loan"
+      ],
+      "responses": [
+        "Should be an Indian National (including NRIs) Secured admission to a recognized university/Institution For PIOs/OCIs, loan to be extended for studies in India only"
+      ]
+    },{
+      "tag": "Minimum eligibility education loan SBI bank",
+      "patterns": [
+        "Minimum Eligibility education loan SBI bank",
+        "education loan Minimum Eligibility SBI bank",
+        "SBI Minimum Eligibility education loan"
+      ],
+      "responses": [
+        "Should be an Indian National (including NRIs) Secured admission to a recognized university/Institution For PIOs/OCIs, loan to be extended for studies in India only"
+      ]
+    },
+{
+      "tag": "documents required education loan SBI bank",
+      "patterns": [
+        "documents required education loan SBI bank",
+        "education loan documents required SBI bank",
+        "SBI documents required education loan"
+      ],
+      "responses": [
+        "Kindly visit the following link for checking the detailed information of documents required for the loan application. https://sbi.co.in/web/personal-banking/loans/education-loans/student-loan-scheme"
+      ]
+    },{
+      "tag": "repayment education loan SBI bank",
+      "patterns": [
+        "repayment education loan SBI bank",
+        "education loan repayment SBI bank",
+        "SBI repayment education loan"
+      ],
+      "responses": [
+        "Repayment Period can be upto 15 years after completion of course & moratorium. If the student is not able to complete the course within the scheduled time, extension of time for completion of course may be permitted for a maximum period of 2 years."
+      ]
+    },{
+      "tag": "interest rate car loan SBI bank",
+      "patterns": [
+        "interest rate car loan SBI bank",
+        "car loan interest rate SBI bank",
+        "SBI interest rate car loan"
+      ],
+      "responses": [
+        "The interest rates start from 8.10% to 8.90%. For having a look at other auto loan schemes and their interest rates please visit the following link. https://sbi.co.in/web/interest-rates/interestrates/loan-schemes-interest-rates/auto-loans"  
+      ]
+    },{
+      "tag": "tenure car loan SBI bank",
+      "patterns": [
+        "tenure car loan SBI bank",
+        "car loan tenure SBI bank",
+        "SBI tenure car loan"
+      ],
+      "responses": [
+        "Longest Repayment Tenure is upto 7 years"
+      ]
+    },{
+      "tag": "loan amount car loan SBI bank",
+      "patterns": [
+        "loan amount car loan SBI bank",
+        "car loan loan amount SBI bank",
+        "SBI loan amount car loan"
+      ],
+      "responses": [
+        "**Central government employees with a Net Annual Income with any co-applicant if any, together greater than Rs. 3,00,000/- 48 times of the Net Monthly Income.**Professionals, Self-employed, Businessmen, proprietary/partnership firms with a Net Annual Income graeter than Rs. 3,00,000/- 4 times Net Profit or Gross Taxable income as per ITR after adding back depreciation and repayment of all existing loans.**Persons engaged in agriculture and allied activities with a Net Annual Income greater than Rs. 4,00,000/- 3 times of Net Annual Income."
+      ]
+    },{
+      "tag": "processing fee car loan SBI bank",
+      "patterns": [
+        "processing fee car loan SBI bank",
+        "car loan processing fee SBI bank",
+        "SBI processing fee car loan"
+      ],
+      "responses": [
+        "SBI dont charge processing fee for car loans.."
+      ]
+    },
+
+{
+      "tag": "Eligibility car loan SBI bank",
+      "patterns": [
+        "Eligibility car loan SBI bank",
+        "car loan Eligibility SBI bank",
+        "SBI Eligibility car loan"
+      ],
+      "responses": [
+        "The borrower has to be minimum of 21 years of age.**Central government employees with a Net Annual Income with any co-applicant if any, together greater than Rs. 3,00,000/- **Professionals, Self-employed, Businessmen, proprietary/partnership firms with a Net Annual Income graeter than Rs. 3,00,000/-  **Persons engaged in agriculture and allied activities with a Net Annual Income greater than Rs. 4,00,000/-"
+      ]
+    },{
+      "tag": "Minimum eligibility car loan SBI bank",
+      "patterns": [
+        "Minimum Eligibility car loan SBI bank",
+        "car loan Minimum Eligibility SBI bank",
+        "SBI Minimum Eligibility car loan"
+      ],
+      "responses": [
+        "The borrower has to be minimum of 21 years of age.Central government employees with a Net Annual Income with any co-applicant if any, together greater than Rs. 3,00,000/- **Professionals, Self-employed, Businessmen, proprietary/partnership firms with a Net Annual Income graeter than Rs. 3,00,000/-  **Persons engaged in agriculture and allied activities with a Net Annual Income greater than Rs. 4,00,000/-"
+      ]
+    },
+{
+      "tag": "documents required car loan SBI bank",
+      "patterns": [
+        "documents required car loan SBI bank",
+        "car loan documents required SBI bank",
+        "SBI documents required car loan"
+      ],
+      "responses": [
+        "Kindly visit the following website for having a detailed information of documents required for the car loan application. https://sbi.co.in/web/personal-banking/loans/auto-loans/sbi-new-car-loan-scheme"
+      ]
+    },{
+      "tag": "interest rate car loan ICICI bank",
+      "patterns": [
+        "interest rate car loan ICICI bank",
+        "car loan interest rate ICICI bank",
+        "ICICI interest rate car loan"
+      ],
+      "responses": [
+        "Interest rate for new car loans ranges from attractive 8.25% based on the loan repayment tenure, CIBIL score and the car model.The lending rates ranges from 11.25% to 16.60% for the used car segment."  
+      ]
+    },{
+      "tag": "tenure car loan ICICI bank",
+      "patterns": [
+        "tenure car loan ICICI bank",
+        "car loan tenure ICICI bank",
+        "ICICI tenure car loan"
+      ],
+      "responses": [
+        "The tenure of the loan can be upto 7 years. And it can be repaid within a shorter tenure if the borrower has a profile."
+      ]
+    },{
+      "tag": "loan amount car loan ICICI bank",
+      "patterns": [
+        "loan amount car loan ICICI bank",
+        "car loan loan amount ICICI bank",
+        "ICICI loan amount car loan"
+      ],
+      "responses": [
+        "Up to 100% of the ex-showroom price can be processed as loan according to the borrower's profile.Motor insurance funding would also be included in the Auto Loan amount."
+      ]
+    },{
+      "tag": "processing fee car loan ICICI bank",
+      "patterns": [
+        "processing fee car loan ICICI bank",
+        "car loan processing fee ICICI bank",
+        "ICICI processing fee car loan"
+      ],
+      "responses": [
+        "Kindly visit the following link for checking the detailed processing fee for the car loan. https://www.icicibank.com/personal-banking/loans/car-loan/service-charges"
+      ]
+    },
+
+{
+      "tag": "Eligibility car loan ICICI bank",
+      "patterns": [
+        "Eligibility car loan ICICI bank",
+        "car loan Eligibility ICICI bank",
+        "ICICI Eligibility car loan"
+      ],
+      "responses": [
+        "Kindly visit the following site for checking the eligibility for the loan. https://www.icicibank.com/privilege-banking/personal/car-loan-eligibility"
+      ]
+    },{
+      "tag": "Minimum eligibility car loan ICICI bank",
+      "patterns": [
+        "Minimum Eligibility car loan ICICI bank",
+        "car loan Minimum Eligibility ICICI bank",
+        "ICICI Minimum Eligibility car loan"
+      ],
+      "responses": [
+               "Kindly visit the following site for checking the eligibility for the loan. https://www.icicibank.com/privilege-banking/personal/car-loan-eligibility"
+
+      ]
+    },
+{
+      "tag": "documents required car loan ICICI bank",
+      "patterns": [
+        "documents required car loan ICICI bank",
+        "car loan documents required ICICI bank",
+        "ICICI documents required car loan"
+      ],
+      "responses": [
+        "The following documents are required for the loan application.  Photographs  Identity Proof  Address Proof  Bank Statements  Signature Verification  Latest Salary Slip / Form 16  Income Tax returns of 2 previous financial years along with complete financial/audit report.  Income Tax Returns of 2 previous financial years.  Business Stability proof / Ownership proof  Employment Stability Proof  Partnership deed and Letter signed by all partners authorising one partner"
+      ]
+    },{
+      "tag": "interest rate home loan ICICI bank",
+      "patterns": [
+        "interest rate home loan ICICI bank",
+        "home loan interest rate ICICI bank",
+        "ICICI interest rate home loan"
+      ],
+      "responses": [
+        "Kindly visit the following link for checking the interest rate w.r.t various income slabs. https://www.icicibank.com/personal-banking/loans/home-loan/home-loan-interest-rates?#toptitle,"  
+      ]
+    },{
+      "tag": "woman home loan ICICI bank",
+      "patterns": [
+        "woman home loan ICICI bank",
+        "home loan woman ICICI bank",
+        "ICICI woman home loan"
+      ],
+      "responses": [
+        "Women applying for Home Loan have the privilege of getting discounted or special interest rates. When it comes to offering special concession on the interest rates for Home Loan, ICICI Bank provides Home Loans at a special rate of 8.10% per annum. The woman should be the main borrower of the loan or just a co-applicant to be eligible for special rates."  
+      ]
+    },{
+      "tag": "tenure home loan ICICI bank",
+      "patterns": [
+        "tenure home loan ICICI bank",
+        "home loan tenure ICICI bank",
+        "ICICI tenure home loan"
+      ],
+      "responses": [
+        "Upto 30 years for salaried employees from select companies."
+      ]
+    },{
+      "tag": "loan amount home loan ICICI bank",
+      "patterns": [
+        "loan amount home loan ICICI bank",
+        "home loan loan amount ICICI bank",
+        "ICICI loan amount home loan"
+      ],
+      "responses": [
+        "You can get a home loan ranging from a minimum of Rs 5 lakh to a maximum of Rs 1 crore, based on your repayment capacity and the cost of the property. You will be eligible for a maximum of 80% of the cost of the property or the cost of construction as applicable and 65% of the cost of land in case of purchase of land."
+      ]
+    },{
+      "tag": "processing fee home loan ICICI bank",
+      "patterns": [
+        "processing fee home loan ICICI bank",
+        "home loan processing fee ICICI bank",
+        "ICICI processing fee home loan"
+      ],
+      "responses": [
+        "The processing fee for the loan stands as 0.50% - 2.00% of the loan amount or Rs. 3000/- whichever is higher plus applicable taxes (including GST) and other statutory levies, if any."
+      ]
+    },
+
+{
+      "tag": "Eligibility home loan ICICI bank",
+      "patterns": [
+        "Eligibility home loan ICICI bank",
+        "home loan Eligibility ICICI bank",
+        "ICICI Eligibility home loan"
+      ],
+      "responses": [
+        "Kindly check your eligibility status in the following link. https://loans.icicibank.com/loans/home-loan/#/eligibility/residential-status"
+      ]
+    },{
+      "tag": "Minimum eligibility home loan ICICI bank",
+      "patterns": [
+        "Minimum Eligibility home loan ICICI bank",
+        "home loan Minimum Eligibility ICICI bank",
+        "ICICI Minimum Eligibility home loan"
+      ],
+      "responses": [
+               "Kindly check your eligibility status in the following link. https://loans.icicibank.com/loans/home-loan/#/eligibility/residential-status"
+
+      ]
+    },{
+      "tag": "prepayment home loan ICICI bank",
+      "patterns": [
+        "prepayment home loan ICICI bank",
+        "home loan prepayment ICICI bank",
+        "ICICI prepayment home loan"
+      ],
+      "responses": [
+               "Nil of amount prepaid plus applicable taxes and/or other statutory levies."
+
+      ]
+    },
+{
+      "tag": "documents required home loan ICICI bank",
+      "patterns": [
+        "documents required home loan ICICI bank",
+        "home loan documents required ICICI bank",
+        "ICICI documents required home loan"
+      ],
+      "responses": [
+        "The following are the documents required for loan appllication that need to be submitted alongside with loan application form.Application form with photograph duly signed  Identity, residence and age proof  Last 6 months bank statements  Last 3 months Salary-slips  Processing fee cheque  Form 16/ Income Tax Returns  Proof of business existence  Business profile  Education qualification certificate and proof of business existence  Last 3 years Income Tax Returns with computation of Income  Last 3 years CA Certified/ Audited Balance Sheet and Profit & Loss Account"
+      ]
+    },
+    {
+      "tag": "interest rate education loan ICICI bank",
+      "patterns": [
+        "interest rate education loan ICICI bank",
+        "education loan interest rate ICICI bank",
+        "ICICI interest rate education loan"
+      ],
+      "responses": [
+        "The iSMART interest rates for the education loan stands at a minimum of 8.25% per annum and a maximum of 13.20 % per annum."  
+      ]
+    },{
+      "tag": "moratorium period education loan ICICI bank",
+      "patterns": [
+        "moratorium period education loan ICICI bank",
+        "education loan moratorium period ICICI bank",
+        "ICICI moratorium period education loan"
+      ],
+      "responses": [
+        "Course period + 6 Months Grace period"  
+      ]
+    },{
+      "tag": "tenure education loan ICICI bank",
+      "patterns": [
+        "tenure education loan ICICI bank",
+        "education loan tenure ICICI bank",
+        "ICICI tenure education loan"
+      ],
+      "responses": [
+        "Up to 8/10 years for Under Graduate post course period + 6 months Up to 10/12 years for Post Graduate post course period + 6 months"
+      ]
+    },{
+      "tag": "loan amount education loan ICICI bank",
+      "patterns": [
+        "loan amount education loan ICICI bank",
+        "education loan loan amount ICICI bank",
+        "ICICI loan amount education loan"
+      ],
+      "responses": [
+        "The loan amount can cover upto 100% of the student's college expense as well as travel expense for premier institutes.No margin up to Rs 20 lakh for other category of institutes."
+      ]
+    },{
+      "tag": "processing fee education loan ICICI bank",
+      "patterns": [
+        "processing fee education loan ICICI bank",
+        "education loan processing fee ICICI bank",
+        "ICICI processing fee education loan"
+      ],
+      "responses": [
+        "The processing fee can be up to 2%+GST ( Non Refundable )"
+      ]
+    },
+
+{
+      "tag": "Eligibility education loan ICICI bank",
+      "patterns": [
+        "Eligibility education loan ICICI bank",
+        "education loan Eligibility ICICI bank",
+        "ICICI Eligibility education loan"
+      ],
+      "responses": [
+        "The following are the criteria required for being eligible for the loan. Nationality Indian Age Minimum- 18 years Maximum- 35 yearsAcademic record Proven - goodQualification Pursuing graduate/postgraduate degree or a PG diploma.Income source Parents/GuardiansIncome stableUniversity applied to Recognised – In India/AbroadAdmission Status confirmedSecurity Tangible collateral or guarantor- depending on the loan amount and income source."
+      ]
+    },{
+      "tag": "Minimum eligibility education loan ICICI bank",
+      "patterns": [
+        "Minimum Eligibility education loan ICICI bank",
+        "education loan Minimum Eligibility ICICI bank",
+        "ICICI Minimum Eligibility education loan"
+      ],
+      "responses": [
+        "The following are the criteria required for being eligible for the loan. Nationality Indian Age Minimum- 18 years Maximum- 35 yearsAcademic record Proven - goodQualification Pursuing graduate/postgraduate degree or a PG diploma.Income source Parents/GuardiansIncome stableUniversity applied to Recognised – In India/AbroadAdmission Status confirmedSecurity Tangible collateral or guarantor- depending on the loan amount and income source."
+
+
+      ]
+    },{
+      "tag": "prepayment education loan ICICI bank",
+      "patterns": [
+        "prepayment education loan ICICI bank",
+        "education loan prepayment ICICI bank",
+        "ICICI prepayment education loan"
+      ],
+      "responses": [
+               "Nil of amount prepaid plus applicable taxes and/or other statutory levies."
+
+      ]
+    },
+{
+      "tag": "documents required education loan ICICI bank",
+      "patterns": [
+        "documents required education loan ICICI bank",
+        "education loan documents required ICICI bank",
+        "ICICI documents required education loan"
+      ],
+      "responses": [
+        "Here are the mandatory documents that a student need to provide to the banks while applying for a student loan:*Duly filled and signed application form with affixed photographs*2 photographs of passport size*Copy of exam mark sheets of 10th/12th or latest education certificate*Statement of course expenses/cost of study*Aadhaar Card and Pan Card of the student and Parent/ Guardian*Copy of Aadhaar Card /Voter ID/Passport/Driving License*Copy of Voter ID/Aadhaar Card/Driving License/Passport*Rental agreement/Bank statement of 6 months of the student or co-borrower/guarantor/Copy of Ration card/Gas Book/Electricity Bill/Tel Bill*Most recent salary slips or Form 16 of the parent/ guardian/co-borrower*6 months bank statement of the borrower or updated passbook of bank*Updated ITR (Income Tax Return with income computation) of 2 years or IT assessment order of last 2 years of parent/co-borrower/guardian*Documents stating the assets and liabilities of the parent/co-borrower/guardian"
+      ]
+    },{
+      "tag": "interest rate education loan IOB bank",
+      "patterns": [
+        "interest rate education loan IOB bank",
+        "education loan interest rate IOB bank",
+        "IOB interest rate education loan"
+      ],
+      "responses": [
+        "5. For Loan Amount up to INR 7.5 lakhs - The rate of interest is 9.05%, For Loan Amount Above INR 7.5 lakhs - The rate of interest offered is 10.05%."  
+      ]
+    },{
+      "tag": "margin education loan IOB bank",
+      "patterns": [
+        "margin education loan IOB bank",
+        "education loan margin IOB bank",
+        "IOB margin education loan"
+      ],
+      "responses": [
+        "3. The margin money: Studies in India - 5%, Studies abroad - 15%"  
+      ]
+    },{
+      "tag": "tenure education loan IOB bank",
+      "patterns": [
+        "tenure education loan IOB bank",
+        "education loan tenure IOB bank",
+        "IOB tenure education loan"
+        ],
+      "responses": [
+        "Up to 8/10 years for Under Graduate post course period + 6 months Up to 10/12 years for Post Graduate post course period + 6 months"
+      ]
+    },{
+      "tag": "loan amount education loan IOB bank",
+      "patterns": [
+        "loan amount education loan IOB bank",
+        "education loan loan amount IOB bank",
+        "IOB loan amount education loan"
+      ],
+      "responses": [
+        "1.Minimum Loan Amount: Above Rs. 7.50 Lakhs, Maximum Loan Amount: Inland : Rs. 30.00 Lakhs , Foreign: Rs. 40.00 Lakhs"
+      ]
+    },{
+      "tag": "processing fee education loan IOB bank",
+      "patterns": [
+        "processing fee education loan IOB bank",
+        "education loan processing fee IOB bank",
+        "IOB processing fee education loan"
+      ],
+      "responses": [
+        "6. Processing fee is NIL"
+      ]
+    },
+
+{
+      "tag": "Eligibility education loan IOB bank",
+      "patterns": [
+        "Eligibility education loan IOB bank",
+        "education loan Eligibility IOB bank",
+        "IOB Eligibility education loan"
+      ],
+      "responses": [
+        "2. Eligibility: Should be an Indian national , Should not be in gainful employment, Should have secured admission in a recognized university"
+      ]
+    },{
+      "tag": "Minimum eligibility education loan IOB bank",
+      "patterns": [
+        "Minimum Eligibility education loan IOB bank",
+        "education loan Minimum Eligibility IOB bank",
+        "IOB Minimum Eligibility education loan"
+      ],
+      "responses": [
+               "2. Eligibility: Should be an Indian national , Should not be in gainful employment, Should have secured admission in a recognized university."
+
+      ]
+    },{
+      "tag": "prepayment education loan IOB bank",
+      "patterns": [
+        "prepayment education loan IOB bank",
+        "education loan prepayment IOB bank",
+        "IOB prepayment education loan"
+      ],
+      "responses": [
+               "7. Processing fee is 0.25% on the loan amount with a minimum of ₹1000/- and maximum of ₹5000/-"
+
+      ]
+    },
+{
+      "tag": "documents required education loan IOB bank",
+      "patterns": [
+        "documents required education loan IOB bank",
+        "education loan documents required IOB bank",
+        "IOB documents required education loan"
+      ],
+      "responses": [
+        "7. Documents Required Letter of admission Filled in Loan Application Form 2 passport size photographs Statement of cost of study PAN Card of the student and Parent/ Guardian AADHAR Card of the student and Parent/ Guardian Proof of identity (Driving Licence/Passport/Aadhar/ any photo identity) Proof of residence (Driving Licence/Passport/Electricity bill/Telephone bill) Student/Co-borrower/ guarantor's bank account statement for last 6 months IT return/ IT assessment order, of previous 2 years of Parent/ Guardian/ other co-borrower (if IT Payee) Brief statement of assets & liabilities of Parent/ Guardian/ other co-borrower Proof of income (i.e. salary slips/ Form 16) Parent/ Guardian/ other co-borrower"
+      ]
+    },{
+      "tag": "interest rate home loan IOB bank",
+      "patterns": [
+        "interest rate home loan IOB bank",
+        "home loan interest rate IOB bank",
+        "IOB interest rate home loan"
+      ],
+      "responses": [
+        "1.The interest rate will be 8.85% for a loan amount Up to Rs 30 lakh, 8.90% for a loan amount of Rs 30 lakh- Rs 49.99 lakh and Starts @ 8.00% (final pricing based on internal scoring model of the bank) for above 50 lakhs."  
+      ]
+    },{
+      "tag": "tenure home loan IOB bank",
+      "patterns": [
+        "tenure home loan IOB bank",
+        "home loan tenure IOB bank",
+        "IOB tenure home loan"      ],
+      "responses": [
+        "7. The tenure period is upto 30 years maximum."
+      ]
+    },{
+      "tag": "processing fee home loan IOB bank",
+      "patterns": [
+        "processing fee home loan IOB bank",
+        "home loan processing fee IOB bank",
+        "IOB processing fee home loan"
+      ],
+      "responses": [
+        "2. Processing Fees is 0.50% (Up to Rs 25,000)"
+      ]
+    },
+
+{
+      "tag": "Eligibility home loan IOB bank",
+      "patterns": [
+        "Eligibility home loan IOB bank",
+        "home loan Eligibility IOB bank",
+        "IOB Eligibility home loan"
+      ],
+      "responses": [
+        " 3. Home loan is applicable for an individual or a group of individuals. 4. Home loan is available for individulas of Maximum Age- 55 years 60 years of age may also be considered if their legal heirs join them, the loan should be paid back before 70 years of age 5. For Salaried Applicant- Permanent job with 2-3 years of experience would qualify for a home loan 6. For Self-Employed Applicant- At least 3 years of activity in related field would qualify for a home loan "
+      ]
+    },{
+      "tag": "Minimum eligibility home loan IOB bank",
+      "patterns": [
+        "Minimum Eligibility home loan IOB bank",
+        "home loan Minimum Eligibility IOB bank",
+        "IOB Minimum Eligibility home loan"
+      ],
+      "responses": [
+               " 3. Home loan is applicable for an individual or a group of individuals. 4. Home loan is available for individulas of Maximum Age- 55 years 60 years of age may also be considered if their legal heirs join them, the loan should be paid back before 70 years of age 5. For Salaried Applicant- Permanent job with 2-3 years of experience would qualify for a home loan 6. For Self-Employed Applicant- At least 3 years of activity in related field would qualify for a home loan "
+
+      ]
+    },
+{
+      "tag": "documents required home loan IOB bank",
+      "patterns": [
+        "documents required home loan IOB bank",
+        "home loan documents required IOB bank",
+        "IOB documents required home loan"
+      ],
+      "responses": [
+        "8. Documents required for processing home loan Duly filled application form Income Proof for Salaried Applicants- Salary certificate Income Proof for Self-Employed Applicants- Sale agreement for house/flat Membership proof for cooperative societies Experience certificate for self-employed applicants Construction estimate/valuation report for acquisition or legal opinion on the property from the Bank approved by a lawyer or engineer"
+      ]
+    },{
+      "tag": "interest rate car loan IOB bank",
+      "patterns": [
+        "interest rate car loan IOB bank",
+        "car loan interest rate IOB bank",
+        "IOB interest rate car loan"
+      ],
+      "responses": [
+        " 1. Interest rate for new cars is 7.55% p.a. 2. Interest rate for used cars is 8.55% p.a for loan amount Up to Rs.10 lakh and 9.55% p.a for loan amount Above Rs.10 lakh. "  
+      ]
+    },{
+      "tag": "tenure car loan IOB bank",
+      "patterns": [
+        "tenure car loan IOB bank",
+        "car loan tenure IOB bank",
+        "IOB tenure car loan"      ],
+      "responses": [
+        "4. Tenure period is 84 monthly installments or 7 years for new cars and 84 monthly installments or 7 years (less the age of vehicle) for used cars."
+      ]
+    },{
+      "tag": "processing fee car loan IOB bank",
+      "patterns": [
+        "processing fee car loan IOB bank",
+        "car loan processing fee IOB bank",
+        "IOB processing fee car loan"
+      ],
+      "responses": [
+        "3. Processing fee : Up to Rs.5 lakh: 0.50 % (minimum of Rs.500) and Above Rs.5 lakh: 0.60 % (maximum of Rs.10,000)"
+      ]
+    },
+
+{
+      "tag": "Eligibility car loan IOB bank",
+      "patterns": [
+        "Eligibility car loan IOB bank",
+        "car loan Eligibility IOB bank",
+        "IOB Eligibility car loan"
+      ],
+      "responses": [
+             "6.Income eligibilty for new car is minimum income of Rs. 8,000 per month and for used cars Rs. 5,000 per month"
+
+      ]
+    },{
+      "tag": "Minimum eligibility car loan IOB bank",
+      "patterns": [
+        "Minimum Eligibility car loan IOB bank",
+        "car loan Minimum Eligibility IOB bank",
+        "IOB Minimum Eligibility car loan"
+      ],
+      "responses": [
+               "6.Income eligibilty for new car is minimum income of Rs. 8,000 per month and for used cars Rs. 5,000 per month"
+
+      ]
+    },
+{
+      "tag": "documents required car loan IOB bank",
+      "patterns": [
+        "documents required car loan IOB bank",
+        "car loan documents required IOB bank",
+        "IOB documents required car loan"
+      ],
+      "responses": [
+        "5. Documents required Identity proof of the applicant Address proof of the applicant Income proof of the applicant Recent Photograph Proforma Invoice (for new Vehicle) and Valuation Certificate from two auto dealers of repute (for used cars)"
+      ]
+    },{
+      "tag": "interest rate car loan CANARA bank",
+      "patterns": [
+        "interest rate car loan CANARA bank",
+        "car loan interest rate CANARA bank",
+        "CANARA interest rate car loan"
+      ],
+      "responses": [
+      " 1. Interest rate for new cars for loan amount Upto Rs. 10.00 Lakhs and Rs. 10.00 lakhs to Rs. 25.00 lakhs is 10% for Central/State/ Government/ Autonomous bodies /PSUs employees 2. Interest rate for new cars for loan amount above Rs.25.00 lakhs is 20% for Central/State/ Government/ Autonomous bodies /PSUs employees 3. Interest rate for new cars for loan amount Upto Rs. 10.00 Lakhs is 10% for all other customers 4. Interest rate for new cars for loan amount Rs. 10.00 lakhs to Rs. 25.00 lakhs is 15% for all other customers. 5. Interest rate for new cars for loan amount above Rs.25.00 lakhs is 20% for both general customers and for Central/State/ Government/ Autonomous bodies /PSUs employees. "
+      ]
+    },{
+      "tag": "tenure car loan CANARA bank",
+      "patterns": [
+        "tenure car loan CANARA bank",
+        "car loan tenure CANARA bank",
+        "CANARA tenure car loan"     
+       ],
+      "responses": [
+        "6. Tenure period Is conveniently Equated into Monthly Instalments upto 84 months ( 60 months in case of second hand vehicles )"
+      ]
+    },{
+      "tag": "processing fee car loan CANARA bank",
+      "patterns": [
+        "processing fee car loan CANARA bank",
+        "car loan processing fee CANARA bank",
+        "CANARA processing fee car loan"
+      ],
+      "responses": [
+        "7. Processing fee is 0.25% on the loan amount with a minimum of ₹1000/- and maximum of ₹5000/-"
+      ]
+    },
+
+{
+      "tag": "prepayment car loan CANARA bank",
+      "patterns": [
+        "prepayment car loan CANARA bank",
+        "car loan prepayment CANARA bank",
+        "CANARA prepayment car loan"
+      ],
+      "responses": [
+               "8. Prepayment Charges is NIL"
+
+      ]
+    },
+{
+      "tag": "documents required car loan CANARA bank",
+      "patterns": [
+        "documents required car loan CANARA bank",
+        "car loan documents required CANARA bank",
+        "CANARA documents required car loan"
+      ],
+      "responses": [
+        "9. Documents Required Identity proof Income proof Address proof "
+      ]
+    },{
+      "tag": "interest rate education loan CANARA bank",
+      "patterns": [
+        "interest rate education loan CANARA bank",
+        "education loan interest rate CANARA bank",
+        "CANARA interest rate education loan"
+      ],
+      "responses": [
+  "1. The interest rate for Degree courses - Up to Rs.7.5 lakh and Vocational, certificate, diploma and skill loan - Up to Rs.1.5 lakh is 7.30%. 2. The rate of interest for loan amount Up to Rs.40 lakh (on the basis of category of institutions) is 7.30% - 7.90%."
+      ]
+    },{
+      "tag": "margin education loan CANARA bank",
+      "patterns": [
+        "margin education loan CANARA bank",
+        "education loan margin CANARA bank",
+        "CANARA margin education loan"
+      ],
+      "responses": [
+        "5. Repayment of the loan will be in equated monthly Installments up to a maximum of 15 years excluding the moratorium period"  
+      ]
+    },{
+      "tag": "tenure education loan CANARA bank",
+      "patterns": [
+        "tenure education loan CANARA bank",
+        "education loan tenure CANARA bank",
+        "CANARA tenure education loan"       ],
+      "responses": [
+        "5. Repayment of the loan will be in equated monthly Installments up to a maximum of 15 years excluding the moratorium period"
+      ]
+    },{
+      "tag": "loan amount education loan CANARA bank",
+      "patterns": [
+        "loan amount education loan CANARA bank",
+        "education loan loan amount CANARA bank",
+        "CANARA loan amount education loan"
+      ],
+      "responses": [
+        "1.Minimum Loan Amount: Above Rs. 7.50 Lakhs, Maximum Loan Amount: Inland : Rs. 30.00 Lakhs , Foreign: Rs. 40.00 Lakhs"
+      ]
+    },{
+      "tag": "processing fee education loan CANARA bank",
+      "patterns": [
+        "processing fee education loan CANARA bank",
+        "education loan processing fee CANARA bank",
+        "CANARA processing fee education loan"
+      ],
+      "responses": [
+        "6. Processing fee for 100% & above Collateral security coverage is 0.50% of sanctioned limit which is Max-Rs.10,000 For Collateral security coverage Less than 100% it is 0.50% of sanctioned limit which is Max-Rs.20,000."
+      ]
+    },
+
+{
+      "tag": "Eligibility education loan CANARA bank",
+      "patterns": [
+        "Eligibility education loan CANARA bank",
+        "education loan Eligibility CANARA bank",
+        "CANARA Eligibility education loan"
+      ],
+      "responses": [
+             "4. Course eligible for loan are Master Degree under STEM (Science, Technical, Engineering and Management) courses."
+
+      ]
+    },{
+      "tag": "Minimum eligibility education loan CANARA bank",
+      "patterns": [
+        "Minimum Eligibility education loan CANARA bank",
+        "education loan Minimum Eligibility CANARA bank",
+        "CANARA Minimum Eligibility education loan"
+      ],
+      "responses": [
+               "4. Course eligible for loan are Master Degree under STEM (Science, Technical, Engineering and Management) courses.7.Nationality Eligibility is either an Indian National or NRIs student holding valid Indian passport"
+
+      ]
+    },{
+      "tag": "prepayment education loan CANARA bank",
+      "patterns": [
+        "prepayment education loan CANARA bank",
+        "education loan prepayment CANARA bank",
+        "CANARA prepayment education loan"
+      ],
+      "responses": [
+               "8. Prepayment Charges is NIL"
+
+      ]
+    },
+{
+      "tag": "documents required education loan CANARA bank",
+      "patterns": [
+        "documents required education loan CANARA bank",
+        "education loan documents required CANARA bank",
+        "CANARA documents required education loan"
+      ],
+      "responses": [
+        "3. Required documents Duly filled application form. Passport-size photograph. Identity proof like Voter ID, Aadhaar card, driving license, passport, PAN etc. Address proof like Aadhaar card, Driving license, Voter ID etc. Date of birth proof. Academic marksheets and certificates (10th, 12th, subsequent exams if applicable). Admission letter or call letter from the institute "
+      ]
+    },{
+      "tag": "interest rate home loan CANARA bank",
+      "patterns": [
+        "interest rate home loan CANARA bank",
+        "home loan interest rate CANARA bank",
+        "CANARA interest rate home loan"
+      ],
+      "responses": [
+  "1. Interest rate for an individual is 8.10% p.a. to 13.3% p.a."
+      ]
+    },{
+      "tag": "margin home loan CANARA bank",
+      "patterns": [
+        "margin home loan CANARA bank",
+        "home loan margin CANARA bank",
+        "CANARA margin home loan"
+      ],
+      "responses": [
+        "6. visit https://canarabank.com/User_page.aspx?menulevel=1&menuid=3&CatID=21 for more details."  
+      ]
+    },{
+      "tag": "tenure home loan CANARA bank",
+      "patterns": [
+        "tenure home loan CANARA bank",
+        "home loan tenure CANARA bank",
+        "4. Tenure period is 15 years"
+      ],
+      "responses": [
+        "3. Tenure period is 30 years or borrower attaining age of 75 years whichever is earlier."
+      ]
+    },{
+      "tag": "loan amount home loan CANARA bank",
+      "patterns": [
+        "loan amount home loan CANARA bank",
+        "home loan loan amount CANARA bank",
+        "CANARA loan amount home loan"
+      ],
+      "responses": [
+        "6. visit https://canarabank.com/User_page.aspx?menulevel=1&menuid=3&CatID=21 for more details."
+      ]
+    },{
+      "tag": "processing fee home loan CANARA bank",
+      "patterns": [
+        "processing fee home loan CANARA bank",
+        "home loan processing fee CANARA bank",
+        "CANARA processing fee home loan"
+      ],
+      "responses": [
+        "4. Nominal processing fee is 0.50% (Min Rs.1500/- and Max. Rs.10,000/-)"
+      ]
+    },
+
+{
+      "tag": "Eligibility home loan CANARA bank",
+      "patterns": [
+        "Eligibility home loan CANARA bank",
+        "home loan Eligibility CANARA bank",
+        "CANARA Eligibility home loan"
+      ],
+      "responses": [
+             "2. Eligibility Minimum age of the applicant is 21 years Maximum age of the applicant is 70 years Salaried individuals confirmed in the service with a minimum service of 2 years. Individuals engaged in business / professionals and self-employed persons. Such applicants should have been in the business/profession for a minimum period of 3 years. The entry age of the borrower/s shall be less than 60 years at the time of availing the loan The ostensible liability in the normal course should get cleared before the borrower/s attain the age of 75 years. Persons above the age of 60 years are also eligible subject to certain stipulations."
+
+      ]
+    },{
+      "tag": "Minimum eligibility home loan CANARA bank",
+      "patterns": [
+        "Minimum Eligibility home loan CANARA bank",
+        "home loan Minimum Eligibility CANARA bank",
+        "CANARA Minimum Eligibility home loan"
+      ],
+      "responses": [
+               "2. Eligibility Minimum age of the applicant is 21 years Maximum age of the applicant is 70 years Salaried individuals confirmed in the service with a minimum service of 2 years. Individuals engaged in business / professionals and self-employed persons. Such applicants should have been in the business/profession for a minimum period of 3 years. The entry age of the borrower/s shall be less than 60 years at the time of availing the loan The ostensible liability in the normal course should get cleared before the borrower/s attain the age of 75 years. Persons above the age of 60 years are also eligible subject to certain stipulations."
+
+      ]
+    },{
+      "tag": "prepayment home loan CANARA bank",
+      "patterns": [
+        "prepayment home loan CANARA bank",
+        "home loan prepayment CANARA bank",
+        "CANARA prepayment home loan"
+      ],
+      "responses": [
+               "6. visit https://canarabank.com/User_page.aspx?menulevel=1&menuid=3&CatID=21 for more details."
+
+      ]
+    },
+{
+      "tag": "documents required home loan CANARA bank",
+      "patterns": [
+        "documents required home loan CANARA bank",
+        "home loan documents required CANARA bank",
+        "CANARA documents required home loan"
+      ],
+      "responses": [
+        "5. Documents required Stipulated Loan Application with 2 passport size photos of applicant / guarantor Sale Deed Agreement for Sale Copy of the approved plan for the proposed construction / extension / addition Detailed cost estimate / valuation report from Banks Panel Chartered Engineer / Architect Allotment letter of Co-operative Housing Society / Apartment Owners Association / Housing Board / NOC from the Society / Association / Builders / Housing Board Legal Scrutiny Report, EC for the past 13 years, Property Tax paid receipt, Khata and permission for mortgage, wherever necessary Salary Certificate and Form No.16 (in case of salaried persons) IT Returns filed for the past three assessment years (in case of non-salaried persons) A brief note on the nature of business, year of establishment, type of organization, etc., (in case of self-employed) Balance Sheet and P&L Account for the past three years (in case of self-employed)"
+      ]
+    },{
+      "tag": "interest rate car loan karur vysya bank",
+      "patterns": [
+        "interest rate car loan karur vysya bank",
+        "car loan interest rate karur vysya bank",
+        "karur vysya interest rate car loan"
+      ],
+      "responses": [
+  "1) The interest rate will be in range 9.00 % - 9.30% for four wheeler and 10.50% - 13.00% for used car Loan."
+      ]
+    },{
+      "tag": "tenure car loan karur vysya bank",
+      "patterns": [
+        "tenure car loan karur vysya bank",
+        "car loan tenure karur vysya bank",
+        "karur vysya tenure car loan"
+      ],
+      "responses": [
+        "3) The maximum tenure to repay the loan will be 7 Years and minimum tenure will be 3 years."
+      ]
+    },{
+      "tag": "loan amount car loan karur vysya bank",
+      "patterns": [
+        "loan amount car loan karur vysya bank",
+        "car loan loan amount karur vysya bank",
+        "karur vysya loan amount car loan"
+      ],
+      "responses": [
+        "4) The 100% loan amount on the on road price of the car will be processed based on the profile of the borrower."
+      ]
+    },{
+      "tag": "processing fee car loan karur vysya bank",
+      "patterns": [
+        "processing fee car loan karur vysya bank",
+        "car loan processing fee karur vysya bank",
+        "karur vysya processing fee car loan"
+      ],
+      "responses": [
+        "2) The processing charges will be from Rs:3000 and 7500 for Loan above 10 Lakhs."
+      ]
+    },
+
+{
+      "tag": "Eligibility car loan karur vysya bank",
+      "patterns": [
+        "Eligibility car loan karur vysya bank",
+        "car loan Eligibility karur vysya bank",
+        "karur vysya Eligibility car loan"
+      ],
+      "responses": [
+             "8) To check the eligibility criteria please visit https://www.kvb.co.in/personal/loans/vehicle-loans/flexi-mobile-loan/."
+
+      ]
+    },{
+      "tag": "Minimum eligibility car loan karur vysya bank",
+      "patterns": [
+        "Minimum Eligibility car loan karur vysya bank",
+        "car loan Minimum Eligibility karur vysya bank",
+        "karur vysya Minimum Eligibility car loan"
+      ],
+      "responses": [
+               "8) To check the eligibility criteria please visit https://www.kvb.co.in/personal/loans/vehicle-loans/flexi-mobile-loan/."
+
+      ]
+    },{
+      "tag": "prepayment car loan karur vysya bank",
+      "patterns": [
+        "prepayment car loan karur vysya bank",
+        "car loan prepayment karur vysya bank",
+        "karur vysya prepayment car loan","part payment car loan karur vysya bank"
+      ],
+      "responses": [
+               "7) Karur Vysya Bank does not levy any part payment or foreclosure charges on any of its retail loans that have floating rates of interest.."
+
+      ]
+    },
+{
+      "tag": "documents required car loan karur vysya bank",
+      "patterns": [
+        "documents required car loan karur vysya bank",
+        "car loan documents required karur vysya bank",
+        "karur vysya documents required car loan"
+      ],
+      "responses": [
+        "9) Documents Required: 1) Address Proof 2) Name and Age Proof 3) 3 - Months Salary Slip 4) KYC Documents etc."
+      ]
+    },{
+      "tag": "interest rate education loan karur vysya bank",
+      "patterns": [
+        "interest rate education loan karur vysya bank",
+        "education loan interest rate karur vysya bank",
+        "karur vysya interest rate education loan"
+      ],
+      "responses": [
+  "2) The interest will be Minimum 10.85% to Maximum 13.35%"
+      ]
+    },{
+      "tag": "margin education loan karur vysya bank",
+      "patterns": [
+        "margin education loan karur vysya bank",
+        "education loan margin karur vysya bank",
+        "karur vysya margin education loan"
+      ],
+      "responses": [
+        "1) Margin rate will be Nil upto 4 Lakhs, 5% for loan above 4 Lakhs and 15% for studies in abroad."  
+      ]
+    },{
+      "tag": "tenure education loan karur vysya bank",
+      "patterns": [
+        "tenure education loan karur vysya bank",
+        "education loan tenure karur vysya bank",
+        "karur vysya tenure education loan"
+      ],
+      "responses": [
+        "3) The maximum tenure for loans will be 7 years"
+      ]
+    },{
+      "tag": "loan amount education loan karur vysya bank",
+      "patterns": [
+        "loan amount education loan karur vysya bank",
+        "education loan loan amount karur vysya bank",
+        "karur vysya loan amount education loan"
+      ],
+      "responses": [
+        "4) The loan amount will be transferred 100 % of the education expenses including Tution fees, Book fees and Hostel Charges."
+      ]
+    },{
+      "tag": "processing fee education loan karur vysya bank",
+      "patterns": [
+        "processing fee education loan karur vysya bank",
+        "education loan processing fee karur vysya bank",
+        "karur vysya processing fee education loan"
+      ],
+      "responses": [
+        "2) The processing charges will be from Rs:3000 and 7500 for Loan above 10 Lakhs."
+      ]
+    },
+
+{
+      "tag": "Eligibility education loan karur vysya bank",
+      "patterns": [
+        "Eligibility education loan karur vysya bank",
+        "education loan Eligibility karur vysya bank",
+        "karur vysya Eligibility education loan"
+      ],
+      "responses": [
+             "7) The must eligibility criteria is the student should Indian Citizen and should have secured admission through common entrance test"
+
+      ]
+    },{
+      "tag": "Minimum eligibility education loan karur vysya bank",
+      "patterns": [
+        "Minimum Eligibility education loan karur vysya bank",
+        "education loan Minimum Eligibility karur vysya bank",
+        "karur vysya Minimum Eligibility education loan"
+      ],
+      "responses": [
+               "7) The must eligibility criteria is the student should Indian Citizen and should have secured admission through common entrance test"
+
+      ]
+    },{
+      "tag": "prepayment education loan karur vysya bank",
+      "patterns": [
+        "prepayment education loan karur vysya bank",
+        "education loan prepayment karur vysya bank",
+        "karur vysya prepayment education loan","part payment education loan karur vysya bank"
+      ],
+      "responses": [
+               "5) Pre-Payment is available and no charges for pre-payment."
+
+      ]
+    },
+{
+      "tag": "documents required education loan karur vysya bank",
+      "patterns": [
+        "documents required education loan karur vysya bank",
+        "education loan documents required karur vysya bank",
+        "karur vysya documents required education loan"
+      ],
+      "responses": [
+        "6)You can check the detailed documents required here by visiting this link.  https://www.bankbazaar.com/karur-vysya-bank-education-loan.html"
+      ]
+    },{
+      "tag": "Floating interest home loan karur vysya bank",
+      "patterns": [
+        "Floating interest home loan karur vysya bank",
+        "home loan Floating interest karur vysya bank",
+        "karur vysya Floating interest home loan", "karur vysya Fixed interest home loan"
+      ],
+      "responses": [
+  "4) The interest rate is floating interest rate. The fixed Interest rate is 5.90%."
+      ]
+    },{
+      "tag": "senior home loan karur vysya bank",
+      "patterns": [
+        "senior home loan karur vysya bank",
+        "home loan senior karur vysya bank",
+        "karur vysya senior home loan"
+      ],
+      "responses": [
+        "7) As of now, they are not providing home loans for senior citizens"  
+      ]
+    },{
+      "tag":"EMI home loan karur vysya bank",
+      "patterns": [
+        "EMI home loan karur vysya bank",
+        "home loan EMI karur vysya bank",
+        "karur vysya EMI home loan"
+      ],
+      "responses": [
+        "38) You can calculate the EMI for home loan by using this link https://www.kvb.co.in/calculators/emi-calculator/"
+      ]
+    },{
+      "tag": "processing fee home loan karur vysya bank",
+      "patterns": [
+        "processing fee home loan karur vysya bank",
+        "home loan processing fee karur vysya bank",
+        "karur vysya processing fee home loan"
+      ],
+      "responses": [
+        "5) The processing fee for the home loan up to Rs. 25 Lakhs is Rs. 2,500/- Loans between Rs. 25 Lakhs & Rs. 50 Lakhs will be Rs. 5,000/- and for Loans above Rs. 50 Lakhs is Rs. 7,500/- (Exclusive of GST)"
+      ]
+    },
+
+{
+      "tag": "Eligibility home loan karur vysya bank",
+      "patterns": [
+        "Eligibility home loan karur vysya bank",
+        "home loan Eligibility karur vysya bank",
+        "karur vysya Eligibility home loan"
+      ],
+      "responses": [
+             "9) To check the eligibility criteria please visit this link. https://www.kvb.co.in/calculators/housing-loan-eligibility-calculator/"
+
+      ]
+    },{
+      "tag": "Minimum eligibility home loan karur vysya bank",
+      "patterns": [
+        "Minimum Eligibility home loan karur vysya bank",
+        "home loan Minimum Eligibility karur vysya bank",
+        "karur vysya Minimum Eligibility home loan"
+      ],
+      "responses": [
+               "9) To check the eligibility criteria please visit this link. https://www.kvb.co.in/calculators/housing-loan-eligibility-calculator/"
+
+      ]
+    },{
+      "tag": "prepayment home loan karur vysya bank",
+      "patterns": [
+        "prepayment home loan karur vysya bank",
+        "home loan prepayment karur vysya bank",
+        "karur vysya prepayment home loan","part payment home loan karur vysya bank"
+      ],
+      "responses": [
+               "6) Yes. You can prepay the home loan. As for the charges, if you're Axis Bank home loan is on a floating rate of interest, the bank does not charge any prepayment fee; however, if the loan is under the fixed rate of interest, the bank levies 2% on the outstanding principal amount as prepayment charges."
+
+      ]
+    },
+{
+      "tag": "documents required home loan karur vysya bank",
+      "patterns": [
+        "documents required home loan karur vysya bank",
+        "home loan documents required karur vysya bank",
+        "karur vysya documents required home loan"
+      ],
+      "responses": [
+        "10) Documents Required: 1) Address Proof 2) Name and Age Proof 3) 3 - Months Salary Slip 4) KYC Documents etc. You can check the detailed documents required here by visiting this link. https://www.bankbazaar.com/karur-vysya-bank-home-loan.html"
+      ]
+    }
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+    
+
+
+
+  ]
+}
